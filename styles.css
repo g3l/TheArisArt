@@ -2,6 +2,36 @@ body {
     background-color: grey;
 }
 
+/*nav bar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navbar li {float: left;}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.active) {background-color: #111;}
+
+ul.navbar li a.active {background-color: #4CAF50;}
+
+@media screen and (max-width: 600px){
+    ul.navbar li.right, 
+    ul.navbar li {float: none;}
+}
+
+//home page
+
 h1 {
     color: navy;
     margin-left: 20px;

@@ -21,16 +21,16 @@ ul.navbar li a {
     text-decoration: none;
 }
 
-ul.navbar li a:hover:not(.active) {background-color: #111;}
+ul.navbar li a:hover:not(.active) {background-color: black;}
 
 ul.navbar li a.active {background-color: #4CAF50;}
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 375px){
     ul.navbar li.right, 
     ul.navbar li {float: none;}
 }
 
-//home page
+/*home page*/
 
 h1 {
     color: navy;

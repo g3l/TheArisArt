@@ -31,9 +31,79 @@ body, html {
     display: none;
     padding: 100px 20px;
     height: 100%;
+    overflow: auto;
 }
 
 #Home {background-color: red;}
 #News {background-color: green;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
+
+/* contact form */
+.pc{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.formcontainer {
+    border-radius: 25px;
+    background-color: #333333;
+    padding: 5%;
+    width: 50%;
+}
+.subject{
+    height: 200px;
+    resize: none;
+    
+}
+/* footer items*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333333;    
+}
+
+li {
+    float: left;
+    width: 28%;
+    margin: 2.5%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: underline;
+}
+
+li a:hover {
+    background-color: #111111;
+}

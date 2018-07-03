@@ -66,3 +66,15 @@ li a {
 li a:hover {
     background-color: #111111;
 }
+
+/*about page*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}

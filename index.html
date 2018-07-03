@@ -11,8 +11,8 @@
     <!-- Nav Bar -->
     <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
     <button class="tablink" onclick="openPage('News', this, 'green')">News</button>
-    <button class="tablink" onclick="openPage('Contact', this, 'blue')" id="defaultOpen">Contact</button>
-    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')" id="defaultOpen">About</button>
 
     <!-- Home page -->
     <div id="Home" class="tabcontent">
@@ -48,10 +48,22 @@
 
     <!-- About page -->
     <div id="About" class="tabcontent">
-        <h3>About</h3>
-        <p>Who we are and what we do.</p>
 
+        <table style="width:100%">
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th> 
+                </tr>
+                <tr>
+                  <td>Jill</td>
+                  <td>Smith</td>
+                </tr>
+              </table>
     </div>
+
+    <a href="https://www.instagram.com/thearis_art/">
+            <img src="images/Insta.png" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+          </a> 
 
     <!-- script for switching between pages -->
     <script>

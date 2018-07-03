@@ -9,15 +9,58 @@
 <body>
 
     <!-- Nav Bar -->
-    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+    <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
     <button class="tablink" onclick="openPage('News', this, 'green')">News</button>
     <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-    <button class="tablink" onclick="openPage('About', this, 'orange')" id="defaultOpen">About</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
     <!-- Home page -->
     <div id="Home" class="tabcontent">
-        <h3>Home</h3>
-        <p>some content</p>
+        
+            <div class="responsive">
+                    <div class="gallery">
+                      <a target="_blank" href="images/kratos.jpg">
+                        <img src="images/kratos.jpg" alt="kratos Drinking" width="600" height="400">
+                      </a>
+                      <div class="desc">God of War</div>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_blank" href="images/lupita.jpg">
+                        <img src="images/lupita.jpg" alt="lupita Nyongo" width="600" height="400">
+                      </a>
+                      <div class="desc">Lupita Nyongo</div>
+                    </div>
+                  </div>
+                  
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_blank" href="images/luffy.jpg">
+                        <img src="images/luffy.jpg" alt="Monkey D Luffy" width="600" height="400">
+                      </a>
+                      <div class="desc">Monkey D Luffy</div>
+                    </div>
+                  </div>
+                  
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_blank" href="images/avatar.jpg">
+                        <img src="images/avatar.jpg" alt="Avatar Aang" width="600" height="400">
+                      </a>
+                      <div class="desc">Avatar Aang</div>
+                    </div>
+                  </div>
+                  
+                  <div class="clearfix"></div>
+                  
+                  <div style="padding:6px;">
+                    <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+                    <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+                  </div>
+
     </div>
 
     <!-- News page -->
@@ -49,7 +92,7 @@
     <!-- About page -->
     <div id="About" class="tabcontent">
 
-        <table style="width:100%">
+        <table>
             <tr>
                 <th>Firstname</th>
                 <th>Lastname</th>

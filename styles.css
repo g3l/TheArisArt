@@ -143,11 +143,10 @@ th {
 /*form css*/
 form{
     widows: 100%;
-    border-top:1px dotted #D9D9D9;
-    margin:10px 180px
+    border-top:2px dotted #D9D9D9;
     }
     button{
-    width:246px;
+    width:150px;
     height:30px;
     }
     input{
@@ -185,9 +184,10 @@ form{
     }
     .two{
     background-color:#fff;
-    width:290px;
+    width:240px;
     float:left;
-    height:600px
+    height:250px;
+    padding-left: 10px;
     }
     .main_content{
     width:100%;

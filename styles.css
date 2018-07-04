@@ -173,17 +173,17 @@ form{
     border:4px solid #acbfa5;
     resize: none
     }
-    .four p{
+    .four p{ /*form footer*/
     text-align:center;
     color:#fff;
     padding:15px 0
     }
-    .first p{
+    .first p{ /*the aris art*/
     padding:15px;
     color:#fff
     }
-    .two{
-    background-color:#fff;
+    .two{   /*buttons*/
+    background-color:rgb(255, 255, 255);
     width:240px;
     float:left;
     height:250px;
@@ -194,11 +194,8 @@ form{
     height:auto;
     background-color:#fff
     }
-    .two h4{
-    color:#4C4C4C;
-    text-align:center
-    }
-    .three{
+    
+    .three{ /*input fields*/
     text-align:center;
     width:100%;
     border-left:1px solid #D0D0D0;
@@ -209,5 +206,7 @@ form{
     width:100%;
     clear:both;
     background-color:#41A2CD;
-    height:55px
     }
+.formcol{
+    width: 50%
+}

@@ -152,7 +152,7 @@ form{
     width:280px;
     height:40px;
     padding:5px;
-    margin:20px 0 10px;
+    margin:5px 0 1px;
     border-radius:5px;
     border:4px solid #acbfa5
     }
@@ -167,7 +167,7 @@ form{
     width:280px;
     height:70px;
     padding:5px;
-    margin:20px 0 10px;
+    margin:5px 0 1px;
     border-radius:5px;
     border:4px solid #acbfa5;
     resize: none
@@ -175,7 +175,7 @@ form{
     .four p{ /*form footer*/
     text-align:center;
     color:#fff;
-    padding:15px 0
+    padding:5px 0
     }
     .first p{ /*the aris art*/
     padding:15px;
@@ -189,7 +189,7 @@ form{
     height: 160px;
     }
     .buttonspace{
-    margin-top: 5px;
+    margin-top: 2px;
     }
     .main_content{
     width:100%;

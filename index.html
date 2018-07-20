@@ -12,8 +12,8 @@
 <body>
 
     <!-- Nav Bar -->
-    <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
-    <button class="tablink" onclick="openPage('Anime', this, 'green')">Anime</button>
+    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+    <button class="tablink" onclick="openPage('Anime', this, 'green')" id="defaultOpen">Anime</button>
     <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
     <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
@@ -111,9 +111,12 @@
 
         <div class="responsive">
             <div class="animepics">
-                <a target="_blank" href="images/anime/kratos.jpg">
-                    <img src="images/anime/kratos.jpg" alt="kratos Drinking">
-                </a>
+                <div class="container">  <!-- show image name/description -->
+                    <a target="_blank" href="images/anime/kratos.jpg">
+                        <img src="images/anime/kratos.jpg" alt="kratos Drinking">
+                    </a>
+                    <div class="overlay">Kratos</div>
+                </div>
             </div>
         </div>
 
@@ -255,7 +258,10 @@
         <table>
             <tr>
                 <th>
-                    <img src="images/aris2.jpg" id="libolo" alt="Aris Bowbwa">
+                    <div class="container">
+                        <img src="images/aris2.jpg" id="libolo" alt="Aris Bowbwa">
+                        <div class="overlay">Aris Bobwa</div>
+                    </div>
                 </th>
                 <th>
                     <p> Just someone who can put some lines on a paper ✏ 📜 I do a bit of everything so spoiler ⚠ you might see

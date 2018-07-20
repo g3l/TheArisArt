@@ -118,13 +118,23 @@ div.desc { /* description text*/
 
 
 /*anime page*/
-.animepics {
+div.animepics {
     border-collapse: collapse;
-    width: 100%;
+    padding: 5%;
     border-width: 15px;
     border-style: groove;
     border-color: #222;
-    padding: 5%;
+    background-color: #fff
+}
+
+div.animepics:hover {
+    border: 1px solid #222; /*or this one;      border-width: 15px;    */
+    padding: 1%
+}
+
+div.animepics img {
+    width: 100%;
+    height: auto;
 }
 
 /*about page*/
@@ -228,36 +238,3 @@ form{
 .formcol{
     width: 50%
 }
-
-/*container*/
-
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  @media (min-width: 768px) {
-    .container {
-      width: 750px;
-    }
-  }
-  @media (min-width: 992px) {
-    .container {
-      width: 970px;
-    }
-  }
-  @media (min-width: 1200px) {
-    .container {
-      width: 1170px;
-    }
-  }
-  .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .animecol{
-      width: 33%
-  }

@@ -130,9 +130,15 @@ th, td {
 th {
     text-align: left;
 }
-#instalink{
-    width:42px;height:42px;border:0;
+#fblink{
+    width:42px;
+    height:42px;
     float: right;
+}
+#instalink{
+    width:42px;
+    height:42px;
+    float: left;
 }
 #libolo{
     width: 100%

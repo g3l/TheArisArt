@@ -7,15 +7,17 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>The Aris Art</title>
     <script src="form.js"></script>
-    <meta name="apple-mobile-web-app-capable" content="yes"> <!--web app for ios-->
-    <meta name="mobile-web-app-capable" content="yes"> <!--web app for android-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--web app for ios-->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!--web app for android-->
 </head>
 
 <body>
 
     <!-- Nav Bar -->
-    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-    <button class="tablink" onclick="openPage('Anime', this, 'green')" id="defaultOpen">Anime</button>
+    <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+    <button class="tablink" onclick="openPage('Anime', this, 'green')">Anime</button>
     <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
     <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
@@ -23,7 +25,7 @@
     <div id="Home" class="tabcontent">
 
         <!-- gallery -->
-
+        <!--
         <div class="responsive">
             <div class="gallery">
                 <a target="_blank" href="images/snake.jpg">
@@ -97,10 +99,47 @@
                 <div class="desc">Football player</div>
             </div>
         </div>
+-->
+        <!-- Photo Grid using flexbox -->
+        <div class="row">
+            <div class="column">
+                <a target="_blank" href="images/snake.jpg">
+                    <img src="images/snake.jpg" alt="Guy with snake" style="width: 100%">
+                </a>
+                <a target="_blank" href="images/lupita.jpg">
+                    <img src="images/lupita.jpg" alt="lupita Nyongo" style="width: 100%">
+                </a>
+            </div>
+            <div class="column">
+                <a target="_blank" href="images/baby.jpg">
+                    <img src="images/baby.jpg" alt="kid with afro" style="width: 100%">
+                </a>
+                <a target="_blank" href="images/dude.jpg">
+                    <img src="images/dude.jpg" alt="Guy with glasses" style="width: 100%">
+                </a>
+            </div>
+            <div class="column">
+                <a target="_blank" href="images/woman.jpg">
+                    <img src="images/woman.jpg" alt="Cinque Terre" style="width: 100%">
+                </a>
+                <a target="_blank" href="images/guy.jpg">
+                    <img src="images/guy.jpg" alt="Forest" style="width: 100%">
+                </a>
+            </div>
+            <div class="column">
+                <a target="_blank" href="images/glasses.jpg">
+                    <img src="images/glasses.jpg" alt="Northern Lights" style="width: 100%">
+                </a>
+                <a target="_blank" href="images/soccer.jpg">
+                    <img src="images/soccer.jpg" alt="Mountains" style="width: 100%">
+                </a>
+            </div>
+        </div>
+
 
         <div class="clearfix"></div>
 
-        <div style="padding:6px;">
+        <div style="padding:0px;">
             <!--
                     <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).
                     -->

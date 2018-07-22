@@ -68,23 +68,9 @@ li a:hover {
     background-color: #111111;
 }
 /*home page*/
-div.gallery {
-    border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-    background-color: aqua;
-}
-
-div.gallery img {
+div.row img {
     width: 100%;
     height: auto;
-}
-
-div.desc { /* description text*/
-    padding: 15px;
-    text-align: center;
 }
 /*flexbox gallery*/
 .row {

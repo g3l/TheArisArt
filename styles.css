@@ -146,15 +146,8 @@ div.row img:hover {
 table{
     width: 100%
 }
-table, th, td {
-    border: none;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-}
-th {
-    text-align: left;
+table td{
+    padding: 10px
 }
 #fblink{
     width:42px;
@@ -242,4 +235,39 @@ form{
     }
 .formcol{
     width: 50%
+}
+
+/**/
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.gallery {
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 30px
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 49.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }

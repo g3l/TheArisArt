@@ -43,19 +43,30 @@ body, html {
 /* contact form */
 
 /* footer items*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;  
+}
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-    background-color: #777
-  }
-  
-  .flex-container > div {
-    width: 20%;
-    margin: 40px;
+li {
+    float: left;
+    width: 28%;
+    margin: 2.5%;
+}
+
+li a {
+    display: block;
+    color: white;
     text-align: center;
-  }
+    padding: 16px;
+    text-decoration: underline;
+}
 
+li a:hover {
+    background-color: #111111;
+}
 /*home page*/
 div.row img {
     width: 100%;
@@ -231,3 +242,6 @@ form{
     clear:both;
     background-color:#41A2CD;
     }
+.formcol{
+    width: 50%
+}

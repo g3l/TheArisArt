@@ -72,6 +72,15 @@ div.row img {
     width: 100%;
     height: auto;
 }
+
+div.row img {
+    border-collapse: collapse;
+    padding: 5%;
+    border-width: 15px;
+    border-style: groove;
+    border-color: #222;
+    background-color: #fff
+}
 /*flexbox gallery*/
 .row {
     display: flex;

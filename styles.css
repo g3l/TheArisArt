@@ -116,44 +116,13 @@ div.row img {
     }
 }
 
-
-.responsive {
-    padding: 2px 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
 /*anime page*/
 
-div.animepics:hover {
-    border: 1px solid #222; /*or this one;      border-width: 15px;    */
-    padding: 1%
+div.row img:hover {
+    border: 1px solid rgb(255, 255, 255); /*or this one;      border-width: 15px;    */
+    padding: 2px
 }
 
-div.animepics img {
-    width: 100%;
-    height: auto;
-}
 .overlay {
     position: absolute; 
     bottom: 0; 

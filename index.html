@@ -137,61 +137,59 @@
     <!-- Contact page -->
     <div id="Contact" class="tabcontent">
 
-        <div class="row">
-            <div class="column">
-
-                <p>
-                    For all work or print enquiries please contact me via the form, or direct at contact@aristotle.com
-                </p>
-                <p>
-                    Please don't hesitate to get in touch if you believe I could help with something, I love what I do. This is more of a hobby
-                    than work.
-                </p>
-            </div>
-            <div class="column">
-
-
-                <!--form-->
-                <div class="main_content">
-                    <!--       Header Div.        -->
-                    <div class="first">
-                        <p>The Aris Art</p>
-                    </div>
-                    <!--
+        <table>
+            <tr>
+                <th class="formcol">
+                    <p>
+                        For all work or print enquiries please contact me via the form, or direct at contact@aristotle.com
+                    </p>
+                    <p>
+                        Please don't hesitate to get in touch if you believe I could help with something, I love what I do. This is more of a hobby
+                        than work.
+                    </p>
+                </th>
+                <th class="formcol">
+                    <!--form-->
+                    <div class="main_content">
+                        <!--       Header Div.        -->
+                        <div class="first">
+                            <p>The Aris Art</p>
+                        </div>
+                        <!--
                             This Div is for the Buttons. When user click on buttons, respective field will appear.
                         -->
-                    <div class="two">
-                        <button onclick="nameFunction()">Name</button>
-                        <button class="buttonspace" onclick="emailFunction()">Email</button>
-                        <button class="buttonspace" onclick="contactFunction()">Contact</button>
-                        <button class="buttonspace" onclick="textareaFunction()">Message</button>
-                        <button class="buttonspace" onclick="resetElements()">Reset</button>
-                    </div>
-                    <!--
+                        <div class="two">
+                            <button onclick="nameFunction()">Name</button>
+                            <button class="buttonspace" onclick="emailFunction()">Email</button>
+                            <button class="buttonspace" onclick="contactFunction()">Contact</button>
+                            <button class="buttonspace" onclick="textareaFunction()">Message</button>
+                            <button class="buttonspace" onclick="resetElements()">Reset</button>
+                        </div>
+                        <!--
         This Div is meant to display final form.
         -->
-                    <div class="three">
-                        <form action="/action_page.php" target="_blank" id="mainform" method="POST" name="mainform">
-                            <span id="myForm"></span>
-                            <p></p>
-                            <input type="submit" value="Submit" onclick="thankyou()">
-                        </form>
-                    </div>
-                    <!--
+                        <div class="three">
+                            <form action="/action_page.php" target="_blank" id="mainform" method="POST" name="mainform">
+                                <span id="myForm"></span>
+                                <p></p>
+                                <input type="submit" value="Submit" onclick="thankyou()">
+                            </form>
+                        </div>
+                        <!--
         Footer Div.
         -->
-                    <div class="four">
-                        <p>2018
-                            <a href="#">
-                                <img src="images/art.png" alt="logo" style="width: 20px">
-                            </a> All rights reserved.</p>
+                        <div class="four">
+                            <p>2018
+                                <a href="#">
+                                    <img src="images/art.png" alt="logo" style="width: 20px">
+                                </a> All rights reserved.</p>
+                        </div>
                     </div>
-                </div>
-                <!--form end-->
+                    <!--form end-->
 
-            </div>
-        </div>
-
+                </th>
+            </tr>
+        </table>
         <!--footer-->
         <div class="footer">
             <ul>

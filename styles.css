@@ -35,10 +35,10 @@ body, html {
     overflow: auto;
 }
 
-#Home {background-color: red;}
-#Anime {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+#Home {background-color: #80bfff;}
+#Anime {background-color: #3399ff;}
+#Contact {background-color: #0073e6;}
+#About {background-color: #004d99;}
 
 /* contact form */
 

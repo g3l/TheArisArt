@@ -45,12 +45,16 @@ body, html {
 .form-container {
     display: flex;
     align-items: stretch;
+    background-color: #777
   }
   
   .form-container > div {
-    background-color: DodgerBlue;
+      border: #222 solid 1px;
     width: 100px;
     margin: 10px;
+  }
+  .form-container p{
+      padding: 5px;
   }
 
 /* footer items*/
@@ -235,7 +239,6 @@ form{
     .four{
     width:100%;
     clear:both;
-    background-color:#41A2CD;
     }
 
 /*last page*/

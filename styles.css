@@ -271,3 +271,9 @@ div.gallery {
     display: table;
     clear: both;
 }
+.animelist{
+    text-align: left
+}
+.animelist li{
+    margin-left: 40px
+}

@@ -214,18 +214,18 @@ form{
     padding:5px 0
     }
     .two{   /*buttons*/
-    background-color:rgb(255, 255, 255);
-    float:left;
-    width: 170px;
-    height: 160px;
+    float:right;
+    padding: 10px;
     }
-    .buttonspace{
-    margin-top: 2px;
+    .two button{
+        margin: 2px;
+        width: 100%
     }
     
     .three{ /*input fields*/
     text-align:center;
     width:100%;
+    float: left;
     }
     .four{
     width:100%;

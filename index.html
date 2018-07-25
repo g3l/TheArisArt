@@ -136,6 +136,8 @@
     </div>
     <!-- Contact page -->
     <div id="Contact" class="tabcontent">
+        <!--form-->
+
 
         <!--form-->
 
@@ -190,102 +192,102 @@
             </div>
         </div>
 
+    </div>
+    <!-- About page -->
+    <div id="About" class="tabcontent">
 
-        <!-- About page -->
-        <div id="About" class="tabcontent">
+        <h1>A little bit about myself</h1>
 
-            <h1>A little bit about myself</h1>
-
-            <div class="responsive">
-                <div class="gallery">
-                    <div class="container">
-                        <img src="images/aris2.jpg" id="libolo" alt="Aris Bowbwa">
-                        <div class="overlay">Aris Bobwa</div>
-                    </div>
+        <div class="responsive">
+            <div class="gallery">
+                <div class="container">
+                    <img src="images/aris2.jpg" id="libolo" alt="Aris Bowbwa">
+                    <div class="overlay">Aris Bobwa</div>
                 </div>
             </div>
-
-
-            <div class="responsive">
-                <div class="gallery">
-                    <!-- copied from his insta bio -->
-                    <p> Just someone who can put some lines on a paper ✏ 📜 I do a bit of everything so spoiler ⚠ you might see
-                        a bit of everything Enjoy The Moon</p>
-                    <p>Aris Bobwa has been professionally drawing from a very young age. His work has been seen and exhibited
-                        around town and I have decided to create a platform for him to showcase his work to a broad audience.
-                        He draws almost anything and everything, he is a big fan of anime and video games.</p>
-                    In no particular order, below are some of my favourite Animes:
-                    <ul class="animelist">
-                        <li> Naruto </li>
-                        <li> Death Note </li>
-                        <li> Attack on Titan </li>
-                        <li> Tokyo Ghoul</li>
-                        <li> One Piece</li>
-                        <li> Boku No Hero Academia</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="clearfix"></div>
-
-            <div class="responsive">
-                <div class="gallery">
-                    <p>"Nous devrions travailler ensemble bientôt. bon travail."
-                    </p>
-                    Damso, Belgian Congolese rapper, 2015
-                </div>
-            </div>
-
-
-            <div class="responsive">
-                <div class="gallery">
-                    <p>"Keep up the good work"
-                    </p>
-                    Masashi Kishimoto, Japanese manga artist, 2017
-                </div>
-            </div>
-            <table>
-                <tr>
-                    <td>
-                        <a href="https://www.facebook.com/profile.php?id=100009585516266" target="_blank">
-                            <img src="images/fb.png" alt="Facebook link" id="fblink">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="https://www.instagram.com/thearis_art/" target="_blank">
-                            <img src="images/Insta.png" alt="Insta Link" id="instalink">
-                        </a>
-                    </td>
-                </tr>
-            </table>
         </div>
 
 
+        <div class="responsive">
+            <div class="gallery">
+                <!-- copied from his insta bio -->
+                <p> Just someone who can put some lines on a paper ✏ 📜 I do a bit of everything so spoiler ⚠ you might see a
+                    bit of everything Enjoy The Moon</p>
+                <p>Aris Bobwa has been professionally drawing from a very young age. His work has been seen and exhibited around
+                    town and I have decided to create a platform for him to showcase his work to a broad audience. He draws
+                    almost anything and everything, he is a big fan of anime and video games.</p>
+                In no particular order, below are some of my favourite Animes:
+                <ul class="animelist">
+                    <li> Naruto </li>
+                    <li> Death Note </li>
+                    <li> Attack on Titan </li>
+                    <li> Tokyo Ghoul</li>
+                    <li> One Piece</li>
+                    <li> Boku No Hero Academia</li>
+                </ul>
+            </div>
+        </div>
 
-        <!-- script for switching between pages -->
-        <script>
-            function openPage(pageName, elmnt, color) {
-                var i, tabcontent, tablinks;
-                tabcontent = document.getElementsByClassName("tabcontent");
-                for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.display = "none";
-                }
-                tablinks = document.getElementsByClassName("tablink");
-                for (i = 0; i < tablinks.length; i++) {
-                    tablinks[i].style.backgroundColor = "";
-                }
-                document.getElementById(pageName).style.display = "block";
-                elmnt.style.backgroundColor = color;
+        <div class="clearfix"></div>
 
+        <div class="responsive">
+            <div class="gallery">
+                <p>"Nous devrions travailler ensemble bientôt. bon travail."
+                </p>
+                Damso, Belgian Congolese rapper, 2015
+            </div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <p>"Keep up the good work"
+                </p>
+                Masashi Kishimoto, Japanese manga artist, 2017
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.facebook.com/profile.php?id=100009585516266" target="_blank">
+                        <img src="images/fb.png" alt="Facebook link" id="fblink">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.instagram.com/thearis_art/" target="_blank">
+                        <img src="images/Insta.png" alt="Insta Link" id="instalink">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <!-- script for switching between pages -->
+    <script>
+        function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
             }
-            // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
-        </script>
-        <script>    //script for to acknowledge enquiry
-            function thankyou() {
-                alert("Your enquiry has been recorded");
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
             }
-        </script>
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+    <script>    //script for to acknowledge enquiry
+        function thankyou() {
+            alert("Your enquiry has been recorded");
+        }
+    </script>
 </body>
 
 </html>

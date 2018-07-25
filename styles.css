@@ -45,7 +45,6 @@ body, html {
 .form-container {
     display: flex;
     align-items: stretch;
-    background-color: #f1f1f1;
   }
   
   .form-container > div {

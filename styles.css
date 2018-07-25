@@ -245,18 +245,19 @@ div.gallery img {
 div.gallery {
     text-align: center;
     border: 1px solid #ccc;
-    font-size: 30px
 }
 .responsive {
     padding: 0 6px;
     float: left;
     width: 49.99999%;
+    font-size: 25px;
 }
 
 @media only screen and (max-width: 700px) {
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
+        font-size: 15px;
     }
 }
 

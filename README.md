@@ -12,3 +12,7 @@ Looked at some examples on w3schools for help, although i've made them my own
  the things to do with flexbox and the javascript for the 1 page webiste are the main features i used as inspiration.
 
  used the validator a lot to make sure there were no errors in my code.
+
+ the idea of the website came when i saw my friends art work and decide to give him a platform to showcase his work.
+
+ looked at similar websites for inspiration to see what features they have in common. the one website i liked was; https://www.liambrazier.com/   i just thought the layout was cool and wanted something similar

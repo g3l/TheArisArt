@@ -42,7 +42,17 @@ body, html {
 
 /* contact form */
 
-
+.form-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .form-container > div {
+    background-color: DodgerBlue;
+    width: 100px;
+    margin: 10px;
+  }
 
 /* footer items*/
 .flex-container {
@@ -204,40 +214,25 @@ form{
     color:#fff;
     padding:5px 0
     }
-    .first p{ /*the aris art*/
-    font-size: 20px;
-    text-align: center
-    }
     .two{   /*buttons*/
     background-color:rgb(255, 255, 255);
     float:left;
-    padding-left: 10px;
     width: 170px;
     height: 160px;
     }
     .buttonspace{
     margin-top: 2px;
     }
-    .main_content{
-    width:100%;
-    height:auto;
-    background-color:#fff
-    }
     
     .three{ /*input fields*/
     text-align:center;
     width:100%;
-    border-left:1px solid #D0D0D0;
-    background-color:#fff
     }
-    .four,.first{
+    .four{
     width:100%;
     clear:both;
     background-color:#41A2CD;
     }
-.formcol{
-    width: 50%
-}
 
 /*last page*/
 div.gallery img {

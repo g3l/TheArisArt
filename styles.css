@@ -1,284 +1,278 @@
-
-* {box-sizing: border-box}
-
+* {
+    box-sizing: border-box
+}
 /* Set height of body and the document to 100% */
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial;
+ body, html {
+     height: 100%;
+     margin: 0;
+     font-family: Arial;
 }
-
 /* Style tab links */
-.tablink {
-    background-color: #555;
-    height: 40px;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 5px 16px;
-    font-size: 17px;
-    width: 25%;
+ .tablink {
+     background-color: #555;
+     height: 40px;
+     color: white;
+     float: left;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 5px 16px;
+     font-size: 17px;
+     width: 25%;
 }
-
-.tablink:hover {
-    background-color: #777;
+ .tablink:hover {
+     background-color: #777;
 }
-
 /* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-    color: white;
-    display: none;
-    padding: 3% 3%; /*first is distance from nav bar second is distance from sides l & r*/
-    height: 100%;
-    overflow: auto;
+ .tabcontent {
+     color: white;
+     display: none;
+     padding: 3% 3%;
+    /*first is distance from nav bar second is distance from sides l & r*/
+     height: 100%;
+     overflow: auto;
 }
-
-#Home {background-color: #80bfff;}
-#Anime {background-color: #3399ff;}
-#Contact {background-color: #0073e6;}
-#About {background-color: #004d99;}
-
+ #Home {
+    background-color: #80bfff;
+}
+ #Anime {
+    background-color: #3399ff;
+}
+ #Contact {
+    background-color: #0073e6;
+}
+ #About {
+    background-color: #004d99;
+}
 /* contact form */
-
-.form-container {
-    display: flex;
-    align-items: stretch;
-    background-color: #777
-  }
-  
-  .form-container > div {
-      border: #222 solid 1px;
-    width: 100px;
-    margin: 10px;
-  }
-  .form-container p{
-      padding: 5px;
-  }
-
-/* footer items*/
-.flex-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .flex-container > div {
-    background-color: #555;
-    width: 30%;
-    margin: 10px;
-    text-align: center;
-    line-height: 25px;
-  }
-  .flex-container a{
-      color: #fff;
-  }
-  /*footer hover*/
-  .flex-container > div :hover{
-    background-color: #fff;
-  }
-  .flex-container a:hover{
-      color: black;
-  }
-/*home page*/
-div.row img {
-    width: 100%;
-    height: auto;
+ .form-container {
+     display: flex;
+     align-items: stretch;
+     background-color: #777 
 }
-
-div.row img {
-    border-collapse: collapse;
-    padding: 5%;
-    border-width: 15px;
-    border-style: groove;
-    border-color: #222;
-    background-color: #fff
+ .form-container > div {
+     border: #222 solid 1px;
+     width: 100px;
+     margin: 10px;
+}
+ .form-container p{
+     padding: 5px;
+}
+/* footer items*/
+ .flex-container {
+     display: flex;
+     justify-content: center;
+}
+ .flex-container > div {
+     background-color: #555;
+     width: 30%;
+     margin: 10px;
+     text-align: center;
+     line-height: 25px;
+}
+ .flex-container a{
+     color: #fff;
+}
+/*footer hover*/
+ .flex-container > div :hover{
+     background-color: #fff;
+}
+ .flex-container a:hover{
+     color: black;
+}
+/*home page*/
+ div.row img {
+     width: 100%;
+     height: auto;
+}
+ div.row img {
+     border-collapse: collapse;
+     padding: 5%;
+     border-width: 15px;
+     border-style: groove;
+     border-color: #222;
+     background-color: #fff 
 }
 /*flexbox gallery*/
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0 4px;
 }
-
 /* Create four equal columns that sits next to each other */
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+ .column {
+     flex: 25%;
+     max-width: 25%;
+     padding: 0 4px;
 }
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
+ .column img {
+     margin-top: 8px;
+     vertical-align: middle;
 }
-
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
+ @media (max-width: 800px) {
+     .column {
+         flex: 50%;
+         max-width: 50%;
     }
 }
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
+ @media (max-width: 600px) {
+     .column {
+         flex: 100%;
+         max-width: 100%;
     }
 }
-
 /*anime page*/
-
-div.row img:hover {
-    border: 1px solid rgb(255, 255, 255); /*or this one;      border-width: 15px;    */
-    padding: 2px
+ div.row img:hover {
+     border: 1px solid rgb(255, 255, 255);
+    /*or this one;
+     border-width: 15px;
+     */
+     padding: 2px 
 }
-
-.overlay {
-    position: absolute; 
-    bottom: 0; 
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #f1f1f1; 
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-  }
-  .container {
-    position: relative;
-    max-width: 100%;
-  }
-  .container:hover .overlay {
-    opacity: 1;
-  }
+ .overlay {
+     position: absolute;
+     bottom: 0;
+     background: rgb(0, 0, 0);
+     background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+     color: #f1f1f1;
+     width: 100%;
+     transition: .5s ease;
+     opacity:0;
+     color: white;
+     font-size: 20px;
+     padding: 20px;
+     text-align: center;
+}
+ .container {
+     position: relative;
+     max-width: 100%;
+}
+ .container:hover .overlay {
+     opacity: 1;
+}
 /*about page*/
-table{
-    width: 100%
+ table{
+     width: 100% 
 }
-table td{
-    padding: 10px
+ table td{
+     padding: 10px 
 }
-#fblink{
-    width:42px;
-    height:42px;
-    float: right;
+ #fblink{
+     width:42px;
+     height:42px;
+     float: right;
 }
-#instalink{
-    width:42px;
-    height:42px;
-    float: left;
+ #instalink{
+     width:42px;
+     height:42px;
+     float: left;
 }
-#libolo{
-    width: 100%
+ #libolo{
+     width: 100% 
 }
-.reviews{
-    text-align: center
+ .reviews{
+     text-align: center 
 }
 /*form css*/
-#formh1{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: inherit;
+ #formh1{
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: inherit;
 }
-form{
-    widows: 100%;
-    }
-    button{
-    width:150px;
-    height:30px;
-    }
-    input{
-    width:80%;
-    height:auto;
-    padding:5px;
-    margin:5px 0 1px;
-    border-radius:5px;
-    border:4px solid #acbfa5
-    }
-    input[type = submit]{
-    width:100px;
-    background-color:#35c8ef;
-    border-radius:5px;
-    border:2px solid blue;
-    color:#fff
-    }
-    textarea{
-    width:80%;
-    height:100px;
-    padding:5px;
-    margin:5px 0 1px;
-    border-radius:5px;
-    border:4px solid #acbfa5;
-    resize: none
-    }
-    .four p{ /*form footer*/
-    text-align:center;
-    color:#fff;
-    padding:5px 0
-    }
-    .two{   /*buttons*/
-    float:right;
-    padding: 10px;
-    }
-    .two button{
-        margin: 2px;
-        width: 100%
-    }
-    
-    .three{ /*input fields*/
-    text-align:center;
-    width:100%;
-    float: left;
-    }
-    .four{
-    width:100%;
-    clear:both;
-    }
-
+ form{
+     widows: 100%;
+}
+ button{
+     width:150px;
+     height:30px;
+}
+ input{
+     width:80%;
+     height:auto;
+     padding:5px;
+     margin:5px 0 1px;
+     border-radius:5px;
+     border:4px solid #acbfa5 
+}
+ input[type = submit]{
+     width:100px;
+     background-color:#35c8ef;
+     border-radius:5px;
+     border:2px solid blue;
+     color:#fff 
+}
+ textarea{
+     width:80%;
+     height:100px;
+     padding:5px;
+     margin:5px 0 1px;
+     border-radius:5px;
+     border:4px solid #acbfa5;
+     resize: none 
+}
+ .four p{
+    /*form footer*/
+     text-align:center;
+     color:#fff;
+     padding:5px 0 
+}
+ .two{
+    /*buttons*/
+     float:right;
+     padding: 10px;
+}
+ .two button{
+     margin: 2px;
+     width: 100% 
+}
+ .three{
+    /*input fields*/
+     text-align:center;
+     width:100%;
+     float: left;
+}
+ .four{
+     width:100%;
+     clear:both;
+}
 /*last page*/
-div.gallery img {
-    width: 100%;
-    height: auto;
+ div.gallery img {
+     width: 100%;
+     height: auto;
 }
-div.gallery {
-    text-align: center;
-    border: 1px solid #ccc;
+ div.gallery {
+     text-align: center;
+     border: 1px solid #ccc;
 }
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 49.99999%;
-    font-size: 25px;
+ .responsive {
+     padding: 0 6px;
+     float: left;
+     width: 49.99999%;
+     font-size: 25px;
 }
-
-@media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-        font-size: 15px;
+ @media only screen and (max-width: 700px) {
+     .responsive {
+         width: 49.99999%;
+         margin: 6px 0;
+         font-size: 15px;
     }
 }
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
+ @media only screen and (max-width: 500px) {
+     .responsive {
+         width: 100%;
     }
 }
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+ .clearfix:after {
+     content: "";
+     display: table;
+     clear: both;
 }
-.animelist{
-    text-align: left
+ .animelist{
+     text-align: left 
 }
-.animelist li{
-    margin-left: 40px
+ .animelist li{
+     margin-left: 40px 
 }

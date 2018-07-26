@@ -16,9 +16,9 @@
 <body>
 
     <!-- Nav Bar -->
-    <button class="tablink" onclick="openPage('Home', this, 'black')" id="defaultOpen">Home</button>
+    <button class="tablink" onclick="openPage('Home', this, 'black')">Home</button>
     <button class="tablink" onclick="openPage('Anime', this, 'black')">Anime</button>
-    <button class="tablink" onclick="openPage('Contact', this, 'black')">Contact</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'black')" id="defaultOpen">Contact</button>
     <button class="tablink" onclick="openPage('About', this, 'black')">About</button>
 
     <!-- Home page -->
@@ -175,7 +175,7 @@
             <div class="formcolumn">
                 <!-- This Div is meant to display final form. -->
                 <div class="three">
-                    <form action="/action_page.php" target="_blank" id="mainform" method="POST" name="mainform">
+                    <form name="contactform" method="post" action="send_form_email.php" target="_blank">
                         <span id="myForm"></span>
                         <p></p>
                         <input type="submit" value="Submit" onclick="thankyou()">

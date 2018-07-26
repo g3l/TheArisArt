@@ -45,6 +45,32 @@ body, html {
     background-color: #004d99;
 }
 /* contact form */
+.formrow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* Create four equal columns that sits next to each other */
+.formcolumn {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .formcolumn {
+        flex: 50%;
+        max-width: 50%;
+   }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .formcolumn {
+        flex: 100%;
+        max-width: 100%;
+   }
+}
+
 .form-container {
     display: flex;
     align-items: stretch;
@@ -52,11 +78,8 @@ body, html {
 }
 .form-container > div {
     border: #222 solid 1px;
-    width: 100px;
+    width: 100%;
     margin: 10px;
-}
-.form-container p{
-    padding: 5px;
 }
 /* footer items*/
 .flex-container {
@@ -182,12 +205,8 @@ table td{
     font-family: 'Times New Roman', Times, serif;
     font-weight: inherit;
 }
-button{
-    width:150px;
-    height:30px;
-}
 input{
-    width:80%;
+    width:90%;
     height:auto;
     padding:5px;
     margin:5px 0 1px;
@@ -195,14 +214,15 @@ input{
     border:4px solid #acbfa5 
 }
 input[type = submit]{
-    width:100px;
+    width:auto;
     background-color:#35c8ef;
     border-radius:5px;
     border:2px solid blue;
-    color:#fff 
+    color:#fff ;    
+    cursor: pointer;
 }
 textarea{
-    width:80%;
+    width:90%;
     height:100px;
     padding:5px;
     margin:5px 0 1px;
@@ -216,20 +236,32 @@ textarea{
     color:#fff;
     padding:5px 0 
 }
+button{
+    height: 100%;
+}
 .two{
    /*buttons*/
-    float:right;
+   text-align: center;
     padding: 10px;
 }
 .two button{
-    margin: 2px;
-    width: 100% 
+    display: inline-block;
+    border-radius: 14px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
 }
 .three{
    /*input fields*/
     text-align:center;
     width:100%;
-    float: left;
 }
 .four{
     width:100%;

@@ -35,17 +35,12 @@ var r = document.createElement('span');
 var y = document.createElement("INPUT");
 y.setAttribute("type", "text");
 y.setAttribute("placeholder", "Full Name");
-var g = document.createElement("IMG");
-g.setAttribute("src", "images/delete.png");
-g.height = 20;
-g.width = 20;
 increment();
 y.setAttribute("Name", "textelement_" + i);
 r.appendChild(y);
-g.setAttribute("onclick", "removeElement('myForm','id_" + i + "')");
-r.appendChild(g);
 r.setAttribute("id", "id_" + i);
 document.getElementById("myForm").appendChild(r);
+document.getElementById("namebtn").disabled = true;
 }
 /*
 -----------------------------------------------------------------------------
@@ -70,6 +65,7 @@ g.setAttribute("onclick", "removeElement('myForm','id_" + i + "')");
 r.appendChild(g);
 r.setAttribute("id", "id_" + i);
 document.getElementById("myForm").appendChild(r);
+document.getElementById("emailbtn").disabled = true;
 }
 /*
 -----------------------------------------------------------------------------
@@ -94,6 +90,7 @@ g.setAttribute("onclick", "removeElement('myForm','id_" + i + "')");
 r.appendChild(g);
 r.setAttribute("id", "id_" + i);
 document.getElementById("myForm").appendChild(r);
+document.getElementById("contactbtn").disabled = true;
 }
 /*
 -----------------------------------------------------------------------------
@@ -118,6 +115,7 @@ g.setAttribute("onclick", "removeElement('myForm','id_" + i + "')");
 r.appendChild(g);
 r.setAttribute("id", "id_" + i);
 document.getElementById("myForm").appendChild(r);
+document.getElementById("messagebtn").disabled = true;
 }
 /*
 -----------------------------------------------------------------------------
@@ -128,4 +126,8 @@ Functions that will be called upon, when user click on the Reset Button.
 */
 function resetElements(){
 document.getElementById('myForm').innerHTML = '';
+document.getElementById("namebtn").disabled = false;
+document.getElementById("emailbtn").disabled = false;
+document.getElementById("contactbtn").disabled = false;
+document.getElementById("messagebtn").disabled = false;
 }

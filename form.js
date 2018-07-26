@@ -116,4 +116,9 @@ function resetElements() {
 //script for to acknowledge enquiry
 function thankyou() {
     alert("Your enquiry has been recorded");
+    document.getElementById('myForm').innerHTML = '';
+    document.getElementById("namebtn").disabled = false;
+    document.getElementById("emailbtn").disabled = false;
+    document.getElementById("contactbtn").disabled = false;
+    document.getElementById("messagebtn").disabled = false;
 }

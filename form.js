@@ -36,7 +36,7 @@ function nameFunction() {
     y.setAttribute("type", "text");
     y.setAttribute("placeholder", "Full Name");
     increment();
-    y.setAttribute("Name", "textelement_" + i);
+    y.setAttribute("Name", "namefield");
     r.appendChild(y);
     r.setAttribute("id", "id_" + i);
     document.getElementById("myForm").appendChild(r);
@@ -55,7 +55,7 @@ function emailFunction() {
     y.setAttribute("type", "text");
     y.setAttribute("placeholder", "Email Adress");
     increment();
-    y.setAttribute("Name", "textelement_" + i);
+    y.setAttribute("Name", "emailfield");
     r.appendChild(y);
     r.setAttribute("id", "id_" + i);
     document.getElementById("myForm").appendChild(r);
@@ -74,7 +74,7 @@ function contactFunction() {
     y.setAttribute("type", "text");
     y.setAttribute("placeholder", "Phone Number");
     increment();
-    y.setAttribute("Name", "textelement_" + i);
+    y.setAttribute("Name", "numberfield");
     r.appendChild(y);
     r.setAttribute("id", "id_" + i);
     document.getElementById("myForm").appendChild(r);
@@ -93,7 +93,7 @@ function textareaFunction() {
     y.setAttribute("cols", "17");
     y.setAttribute("placeholder", "Your message..");
     increment();
-    y.setAttribute("Name", "textelement_" + i);
+    y.setAttribute("Name", "messagefield");
     r.appendChild(y);
     r.setAttribute("id", "id_" + i);
     document.getElementById("myForm").appendChild(r);

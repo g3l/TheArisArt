@@ -19,3 +19,4 @@ Looked at some examples on w3schools for help, although i've made them my own
  
  I can't remember where i got the idea for the javascript form but its not 100% mine. i've made it my own to suit what i had in mind.
  
+Form; on submit, the form does not save or email the filled in form. i'm still trying to figure a way to get the form to be emailed to myself
